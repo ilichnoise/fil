@@ -3,7 +3,8 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
-public class App_functions : MonoBehaviour {
+public class App_functions : MonoBehaviour 
+{
 
 	public GameObject field_number;
 	public GameObject question_label;
@@ -14,11 +15,17 @@ public class App_functions : MonoBehaviour {
 	public List<Question> questions=new List<Question>();
 	private int questions_size=0;
 	private int questions_position=0;
-
+	private string select_category;
 	private int how_many=0;
 	private int yes_no=1;
 
-	void Start(){
+	private OSCController osc;
+	private string answers = ""; //data to send to vvvv
+
+	void Start()
+	{
+		select_category = DecodeQuestions.CO2;
+		osc = new OSCController ();
 		questions=DecodeQuestions.LoadQuestions (DecodeQuestions.CO2);
 		questions_size = questions.Count;
 		nextQuestion ();
@@ -49,8 +56,8 @@ public class App_functions : MonoBehaviour {
 
 	}
 
-	public void increseTotalValue(int val){
-
+	public void addToAnswers(Text val){
+		answers += "\""+val.text+"\",";
 	}
 
 	public void nextQuestion(){
@@ -67,8 +74,11 @@ public class App_functions : MonoBehaviour {
 			questions_position++;
 
 		} else {
-			Debug.Log("Questionario Terminado");
+			answers+="\""+DecodeQuestions.CO2+"\"";
+			Debug.Log("Questionario Terminado: "+ answers);
+			//osc.send("");
 			questions_position=0;
+			answers="";
 			nextQuestion();
 		}
 
