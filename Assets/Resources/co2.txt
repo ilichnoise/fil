@@ -1,0 +1,14 @@
+﻿[
+	 {
+		"type_question": "yes/no",
+		"question":"¿Apagas la computadora cuando nadie está usandola?"
+	 },
+	 {
+		"type_question": "howmany",
+		"question":"¿Cuántas veces por semna juegas videojuegos?" 
+	 },
+	 {
+		"type_question": "yes/no",
+		"question":"El beto huele a popo?"
+	 },
+]
