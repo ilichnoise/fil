@@ -26,7 +26,7 @@ public class App_functions : MonoBehaviour
 	{
 		select_category = DecodeQuestions.CO2;
 		osc = new OSCController ();
-		questions=DecodeQuestions.LoadQuestions (DecodeQuestions.CO2);
+		questions=DecodeQuestions.LoadQuestions (select_category);
 		questions_size = questions.Count;
 		nextQuestion ();
 	}
