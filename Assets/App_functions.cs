@@ -24,11 +24,17 @@ public class App_functions : MonoBehaviour
 
 	void Start()
 	{
-		select_category = DecodeQuestions.CO2;
-		osc = new OSCController ();
-		questions=DecodeQuestions.LoadQuestions (select_category);
-		questions_size = questions.Count;
-		nextQuestion ();
+		LoadConf.loadFromFile(delegate {
+		if(LoadConf.tag==null){
+				Application.LoadLevel(1);
+		}
+			select_category = LoadConf.tag;
+			osc = new OSCController ();
+			questions = DecodeQuestions.LoadQuestions (select_category);
+			questions_size = questions.Count;
+			nextQuestion ();
+		});
+
 	}
 
 	public void initScreen(int number){

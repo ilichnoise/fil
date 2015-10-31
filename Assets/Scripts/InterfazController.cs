@@ -68,6 +68,7 @@ public class InterfazController : MonoBehaviour
 		io.Write(_path, IP.text+"#"+PORT.text+"#"+TAG.text);
 		/*Aqui va la carga de la escena de la aplicacion, reemplazar la linea de abajo*/
 		pantallaConf.SetActive (false);
+		Application.LoadLevel (0);
 	}
 	/*********************************************************************************/
 
