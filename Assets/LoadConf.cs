@@ -7,6 +7,7 @@ public class LoadConf{
 	public static string ip = "";
 	public static string port = "";
 	public static string tag = "";
+	public static string long_tag="";
 	public delegate void Delegate1();
 	private static IO io;
 
@@ -32,8 +33,10 @@ public class LoadConf{
 				tag=null;
 			}
 			tag = datos [2];
+			long_tag = "/"+tag;
 			string [] tag_data = tag.Split ('/');
 			//checa que la ruta sea no mayor a dos
+
 			if(tag_data.Length==2){
 				tag = tag_data [1];
 			}else{

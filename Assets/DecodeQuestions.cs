@@ -7,6 +7,7 @@ public class DecodeQuestions{
 	public const string CO2 = "co2";
 	public const string H2O = "h2o";
 	public const string RESIDUOS = "residuos";
+	public const string TITLE = "title";
 
 	public const string HOWMANY="howmany";
 	public const string YESNO="yes/no";

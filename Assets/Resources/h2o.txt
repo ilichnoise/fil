@@ -1,0 +1,18 @@
+﻿[
+	 {
+	 	"type_question": "title",
+		"question":"¿CUÁNTA AGUA GASTAS?"
+	 },
+	 {
+		"type_question": "yes/no",
+		"question":"¿Apagas la computadora cuando nadie está usandola?"
+	 },
+	 {
+		"type_question": "howmany",
+		"question":"¿Cuántas veces por semana juegas videojuegos?" 
+	 },
+	 {
+		"type_question": "yes/no",
+		"question":"El beto huele a popo?"
+	 },
+]

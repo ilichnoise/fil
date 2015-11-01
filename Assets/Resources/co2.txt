@@ -1,11 +1,15 @@
 ﻿[
 	 {
+	 	"type_question": "title",
+		"question":"¿CUÁNTO CO2 ESTÁS GENERANDO?"
+	 },
+	 {
 		"type_question": "yes/no",
 		"question":"¿Apagas la computadora cuando nadie está usandola?"
 	 },
 	 {
 		"type_question": "howmany",
-		"question":"¿Cuántas veces por semna juegas videojuegos?" 
+		"question":"¿Cuántas veces por semana juegas videojuegos?" 
 	 },
 	 {
 		"type_question": "yes/no",
