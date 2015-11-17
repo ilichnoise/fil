@@ -1,0 +1,26 @@
+﻿[
+	 {
+	 	"type_question": "title",
+		"question":"¿CÓMO PRODUCES CO<size=6>2</size>?"
+	 },
+	 {
+		"type_question": "howmany",
+		"question":"¿Cuántas veces por semana juegas videojuegos?",
+		"custom_yes":"1_mas_off",
+		"custom_no":"1_menos_off",
+	 },
+	 {
+		"type_question": "yes/no",
+		"question":"¿Cómo te transportas para ir a la escuela?",
+		"custom_yes":"2_bici_off",
+		"custom_no":"2_auto_off",
+	 },
+	 {
+		"type_question": "howmany",
+		"question":"¿Cuantas veces a la semana comes carne?",
+		"custom_yes":"3_mas_off",
+		"custom_no":"3_menos_off"
+	 },
+	 
+	
+]

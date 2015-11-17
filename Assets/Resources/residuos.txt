@@ -1,0 +1,25 @@
+﻿[
+	 {
+	 	"type_question": "title",
+		"question":"¿CUÁNTA BASURA ESTÁS GENERANDO?"
+	 },
+	 {
+		"type_question": "yes/no",
+		"question":"¿En tu casa separan la basura?",
+		"custom_yes":"1_si_off",
+		"custom_no":"1_no_off"
+	 },
+	{
+		"type_question": "yes/no",
+		"question":"¿Usas termo o envases desechables para tus bebidas?",
+		"custom_yes":"2_termo_off",
+		"custom_no":"2_envase_off"
+	 },
+	  {
+		"type_question": "yes/no",
+		"question":"¿Sabes si tus materiales escolares son amigables con el medio ambiente?",
+		"custom_yes":"3_si_off",
+		"custom_no":"3_nose_off"
+	 },
+
+]

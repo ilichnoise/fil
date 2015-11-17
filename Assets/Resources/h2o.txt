@@ -1,0 +1,25 @@
+﻿[
+	 {
+	 	"type_question": "title",
+		"question":"¿CÓMO AHORRAS AGUA?"
+	 },
+	 {
+		"type_question": "yes/no",
+		"question":"¿Mientras te enjabonas,¿cierras la llave de la regadera?",
+		"custom_yes":"1_si_off",
+		"custom_no":"1_no_off"
+	 },
+	 {
+		"type_question": "yes/no",
+		"question":"¿Cuando te lavas los dientes,¿usas el agua de un vaso o de la llave?",
+		"custom_yes":"2_vaso_off",
+		"custom_no":"2_llave_off"
+	 },
+	  {
+		"type_question": "yes/no",
+		"question":"¿Siempre te terminas toda la comida que te sirven?",
+		"custom_yes":"3_no_off",
+		"custom_no":"3_si_off"
+	 },
+
+]
