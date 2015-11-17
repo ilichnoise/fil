@@ -41,8 +41,8 @@ public class App_functions : MonoBehaviour
 				Application.LoadLevel(configScene);
 		}
 			//Fuerza variables para probar categoriass
-			LoadConf.tag="co2";
-			LoadConf.changeConf(LoadConf.tag);
+			//LoadConf.tag="co2";
+			//LoadConf.changeConf(LoadConf.tag);
 			//------//
 			//activa todos los elementos para evitar crasheo
 			for (int i=0; i<screens.Length; i++) {
